@@ -12,10 +12,10 @@ This project is an simple example of one application for shoes ecommerce.
 
 <div style="display: flex; justify-content:space-between;">
 <p style="text-align: center">
-  <img src="./.github/assets/img1.PNG">
+  <img src="./.github/img1.PNG">
 <p>
 <p style="text-align: center">
-  <img src="./.github/assets/img2.PNG">
+  <img src="./.github/img2.PNG">
 <p>
 </div>
 
