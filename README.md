@@ -1,44 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rocketshoes
 
-## Available Scripts
+This project is an simple example of one application for shoes ecommerce.
 
-In the project directory, you can run:
+## ✋🏻 Prerequisites
 
-### `yarn start`
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- [Json Server](https://github.com/typicode/json-server)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<div style="display: flex; justify-content:space-between;">
+<p style="text-align: center">
+  <img src="./.github/assets/img1.PNG">
+<p>
+<p style="text-align: center">
+  <img src="./.github/assets/img2.PNG">
+<p>
+</div>
 
-### `yarn test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the repository, and install the dependencies by running the following commands:
 
-### `yarn build`
+```sh
+  $ git clone https://github.com/jmamadeu/rocketshoes.git
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+  $ cd rocketshoes
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```sh
+  $ yarn  # or npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+  $ yarn add global json-server # or npm install -g json-server
+```
 
-### `yarn eject`
+## Running the application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Access the project folder and run the following command:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+  $ cd web
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### For running the api
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+  $ json-server --port 3333 api.json
+```
 
-## Learn More
+### For running app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+  $ yarn start # or npm run start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribution
+
+Contributions are what make the open source community an incredible place to learn, inspire and create. Any contribution you make will be ** very valuable and appreciated **.
+
+1. Fork the project
+2. Create a Branch for your Feature (`git checkout -b feature/IncredibleFeature`)
+3. Add your changes (`git add .`)
+4. Commit your changes (`git commit -m 'Adding an awesome Feature!`)
+5. Push the Branch (`git push origin feature/FeatureIncrivel`)
+6. Open a Pull Request
+
+## Author
+
+João Amadeu
+
+- [Linkedin](https://www.linkedin.com/in/jo%C3%A3o-amadeu-8812291a5/)
