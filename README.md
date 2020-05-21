@@ -44,7 +44,7 @@ Clone the repository, and install the dependencies by running the following comm
 Access the project folder and run the following command:
 
 ```sh
-  $ cd web
+  $ cd rocketshoes
 ```
 
 ### For running the api
